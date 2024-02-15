@@ -161,3 +161,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # Zoxide
 eval "$(zoxide init --cmd cd bash)"
+
+export GPG_TTY=$(tty)
