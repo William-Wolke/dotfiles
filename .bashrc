@@ -153,6 +153,7 @@ alias psqlcon='PGPASSWORD=postgres psql -d edaider -h localhost -p 5434 -U postg
 alias src='source ~/.bashrc'
 alias wget='wget -c'
 alias bat='bat --color=never'
+alias fzf='fzf --color=bw'
 
 eval "$(starship init bash)"
 
