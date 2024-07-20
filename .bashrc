@@ -238,3 +238,5 @@ fi
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 . "$HOME/.cargo/env"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
