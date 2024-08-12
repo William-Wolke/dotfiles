@@ -86,10 +86,9 @@ alias psqlcon='PGPASSWORD=postgres psql -d edaider -h localhost -p 5434 -U postg
 alias src='source ~/.zshrc'
 alias wget='wget -c'
 alias bat='bat --color=never'
-alias fzf='fzf --color=bw'
 
 # Shell integrations
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
 ###-begin-npm-completion-###
