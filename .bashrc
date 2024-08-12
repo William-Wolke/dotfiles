@@ -240,3 +240,5 @@ export EDITOR="$VISUAL"
 . "$HOME/.cargo/env"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+[[ -s "/home/william/.gvm/scripts/gvm" ]] && source "/home/william/.gvm/scripts/gvm"
