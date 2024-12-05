@@ -7,6 +7,8 @@ fi
 
 PATH="$HOME/.cargo/env:$PATH"
 PATH="$HOME/.local/bin:$PATH"
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
 # nvim as default editor
 export VISUAL=nvim
