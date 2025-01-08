@@ -42,6 +42,7 @@ zinit light Aloxaf/fzf-tab
 # Snippets
 zinit snippet OMZP::git
 zinit snippet OMZP::command-not-found
+zinit snippet OMZP::asdf
 
 # Load completions
 autoload -Uz compinit && compinit
