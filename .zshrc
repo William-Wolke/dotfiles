@@ -162,8 +162,5 @@ elif type compctl &>/dev/null; then
 fi
 ###-end-npm-completion-###
 
+. ~/.asdf/plugins/golang/set-env.zsh
 
-export GOPATH=$HOME/go
-export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
-
-[[ -s "/home/william/.gvm/scripts/gvm" ]] && source "/home/william/.gvm/scripts/gvm"
