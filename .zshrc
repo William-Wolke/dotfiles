@@ -14,10 +14,6 @@ export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
-# NVM
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-
 # Set dir of zinit
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
