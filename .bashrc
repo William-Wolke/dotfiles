@@ -155,6 +155,9 @@ alias wget='wget -c'
 alias bat='bat --color=never'
 alias fzf='fzf --color=bw'
 
+export PATH=~/.local/bin/:$PATH
+export PATH=~/.cargo/bin/:$PATH
+
 eval "$(starship init bash)"
 
 export NVM_DIR="$HOME/.nvm"
