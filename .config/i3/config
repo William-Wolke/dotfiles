@@ -29,6 +29,12 @@ exec_always --no-startup-id /usr/libexec/gsd-xsettings
 # is used in the bar {} block below.
 font pango:JetBrainsMono NF 12
 
+### Multi monitor setup
+
+# Move the current workspace to the next output
+# (effectively toggles when you only have two outputs)
+bindsym $mod+x move workspace to output next
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
