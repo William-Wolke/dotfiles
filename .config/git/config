@@ -1,7 +1,7 @@
 [user]
     name = William Wolke
     email = 60339769+William-Wolke@users.noreply.github.com
-    # signingkey = E3DFEC736900FDE2
+    signingkey = E3DFEC736900FDE2
 
 [commit]
     gpgSign = true
