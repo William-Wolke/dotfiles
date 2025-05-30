@@ -67,6 +67,9 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Mousepad natural scrolling
 exec_always xinput set-prop "MSFT0004:00 04F3:31BE Touchpad" "libinput Natural Scrolling Enabled" 1
 
+# xrandr script for existing workspace screen setup
+exec_always --no-startup-id ~/.config/i3/scripts/screens.sh
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
