@@ -71,7 +71,8 @@ exec_always xinput set-prop "MSFT0004:00 04F3:31BE Touchpad" "libinput Natural S
 floating_modifier $mod
 
 # Media player controls
-bindsym XF86AudioPlay exec playerctl play
+# My keyboard seems to have only toggle play/pause
+bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
