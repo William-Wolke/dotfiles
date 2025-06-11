@@ -93,6 +93,7 @@ alias bat='bat --color=never'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+eval $(keychain --eval --agents ssh --quick --quiet)
 
 ###-begin-npm-completion-###
 #
