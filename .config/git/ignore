@@ -16,3 +16,7 @@ zig-out/
 # Pyright poetry config
 pyrightconfig.json
 
+# Edaider
+monorepo/test.hurl
+course_participants.csv
+
