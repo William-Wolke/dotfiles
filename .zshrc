@@ -89,6 +89,7 @@ alias psqlcon='PGPASSWORD=postgres psql -d edaider -h localhost -p 5434 -U postg
 alias src='source ~/.zshrc'
 alias wget='wget -c'
 alias bat='bat --color=never'
+alias gbz='git branch | fzf | xargs git checkout'
 
 # Shell integrations
 eval "$(fzf --zsh)"
