@@ -62,7 +62,7 @@
 
 # Colors
 [color "blame"]
-    highlightRecent = black bold,1 year ago,white,1 month ago,blue,7 days ago,blue
+    highlightRecent = white bold,1 year ago,white,1 month ago,blue,7 days ago,blue
 
 [color "branch"]
     current  = magenta
@@ -72,7 +72,7 @@
     plain    = blue
 
 [color "diff"]
-    meta       = black bold
+    meta       = white bold
     frag       = magenta
     context    = white
     whitespace = yellow reverse
